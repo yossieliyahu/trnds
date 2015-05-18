@@ -1,0 +1,2 @@
+C:\chrome\mongooseproj\obj\Debug\mongooseproj.njsprojResolveAssemblyReference.cache
+C:\chrome\mongooseproj\bin\Microsoft.NodejsTools.WebRole.dll
