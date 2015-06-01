@@ -8,6 +8,16 @@ router.get('/', function (req, res) {
     return standupCtrl.list(req, res);
 });
 
+router.get('/index', function (req, res) {
+    // res.render('index', { title: 'Express' });
+    return standupCtrl.list(req, res);
+});
+
+router.get('/web', function (req, res) {
+    // return res.sendFile('web.html');
+    return res.render('../public/web.html');
+});
+
 router.post('/', function (req, res) {
     return standupCtrl.filterByMember(req, res);
 });
